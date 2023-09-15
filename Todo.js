@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function() {
 let todoItemsContainer = document.getElementById("todoItemsContainer");
 let addTodoButton = document.getElementById("addTodoButton");
 let saveTodoButton = document.getElementById('saveTodoButton');
@@ -134,3 +135,5 @@ addTodoButton.onclick = function() {
     console.log('working')
     onAddTodo();
 }
+
+});
