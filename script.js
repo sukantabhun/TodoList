@@ -1,6 +1,6 @@
 let todoItemsContainer = document.getElementById("todoItemsContainer");
 let addTodoButton = document.getElementById("addTodoButton");
-let saveTodoButton = document.getElementById('saveTodoButton');
+let saveTodoButtoEl = document.getElementById('saveTodoButton');
 
 
 function getTodoListFromLocalStorage() {
@@ -17,7 +17,7 @@ let todoList = getTodoListFromLocalStorage();
 
 let todosCount = todoList.length;
 
-saveTodoButton.onclick = function() {
+saveTodoButtonEl.onclick = function() {
     localStorage.setItem('todoList', JSON.stringify(todoList));
 }
 
