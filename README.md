@@ -1,7 +1,7 @@
 To-Do List Web App
 This is a simple to-do list web application built using HTML, CSS, and JavaScript. It allows users to add and remove tasks, as well as mark tasks as completed.
 
-Feel Free to try in out:https://app.netlify.com/sites/todolistbysukku/configuration/general
+Feel Free to try in out:https://todolistbysukku.netlify.app
 
 Features
 - uses local storage feature
